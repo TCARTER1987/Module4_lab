@@ -7,5 +7,5 @@ Mage::Mage(const string& name, int level, int health, int mana)
 }
 
 void Mage::attack() {
-    cout << name << " ability" << endl;
+    cout << name << " Casts Chain-lightning!" << endl;
 }

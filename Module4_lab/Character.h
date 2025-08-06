@@ -13,7 +13,7 @@ protected:
 
 public:
     Character(const string& name, int level, int health);
-    virtual void attack() = 0; // pure virtual function
+    virtual void attack() = 0; 
     virtual ~Character() = default;
 };
 

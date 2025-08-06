@@ -11,7 +11,7 @@ protected:
 
 public:
     Item(const string& name);
-    virtual void use() = 0; // pure virtual function
+    virtual void use() = 0; 
     virtual ~Item() = default;
 };
 

@@ -7,5 +7,5 @@ Rogue::Rogue(const string& name, int level, int health, int agility)
 }
 
 void Rogue::attack() {
-    cout << name << " ability" << endl;
+    cout << name << " Attempts to backstab you!" << endl;
 }

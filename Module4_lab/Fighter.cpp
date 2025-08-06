@@ -7,5 +7,5 @@ Fighter::Fighter(const string& name, int level, int health, int strength)
 }
 
 void Fighter::attack() {
-    cout << name << " ability " << endl;
+    cout << name << " Slashes you savagely " << endl;
 }
